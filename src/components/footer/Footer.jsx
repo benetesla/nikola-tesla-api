@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className={Styles.footer}>
             <p className={Styles.text}>
-                © 2023 by Bene Tesla . Proudly created with Tesla
+                © 2023 by Bene Tesla .Proudly created with Bene Tesla
             </p>
             <div className={Styles.social}>
                 <a href="https://www.facebook.com/benevanio.santos.7/" target="_blank" rel="noreferrer">
