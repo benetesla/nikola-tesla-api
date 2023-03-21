@@ -1,0 +1,124 @@
+.card {
+    position: relative;
+    width: 463px;
+    height: 310px;
+    left: 140px;
+    top: 110px;
+    background: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.card .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0c0c0c;
+}
+
+.cardImgLeft {
+    position: relative;
+    width: 455px;
+    height: 395px;
+    left: 604px;
+    top: -95px;
+
+}
+
+.cardImgLeft img {
+    width: 100%;
+    height: 100%;
+    border-radius: 77px;
+}
+
+.card2 {
+    position: relative;
+    width: 1105px;
+    height: 104px;
+    left: 25px;
+    top: 65px;
+    border-radius: 15px;
+    background: #8B66B6;
+}
+
+.card2 .title2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    line-height: 35px;
+    color: #0c0c0c;
+    padding: 18px;
+    font-weight: 900;
+}
+
+.card2Content {
+    position: relative;
+    width: 1215px;
+    height: 444px;
+    left: -37px;
+    top: 65px;
+
+
+}
+
+.textContent {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    line-height: 23px;
+    color: #070707;
+    border-radius: 15px;
+    background: #c7b3dd;
+    mix-blend-mode: darken;
+    box-shadow: inset 15px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card2 .text2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0c0c0c;
+
+    background: #c7b3dd;
+    mix-blend-mode: darken;
+    box-shadow: inset 15px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+    .card{  
+        position:relative;
+        width: 100%;
+        height: 310px;
+        left: 0px;
+        top: 110px;
+        background: hsla(0, 0%, 100%, 0.2);
+    }
+    .cardImgLeft {
+        position: relative;
+        width: 100%;
+        height: 395px;
+        left: 0px;
+        top: 95px;
+    }
+    .card2{
+       
+        width: 100%;
+        height: 122px;
+        left: 0px;
+        top: 180px;
+    }
+    .card2Content{
+        position: relative;
+        width: 100%;
+        height: 44px;
+        left: 0px;
+        top: 80px;
+    }
+   
+}
