@@ -82,7 +82,7 @@ import Axios from 'axios'
  const [data, setData] = useState([]);
 
     useEffect(() => {
-        Axios.get('http://localhost:3005/api/Exprimentos')
+        Axios.get('http://localhost:3005/api/Corrents')
             .then(response => setData(response.data));
     }, []);
 ```
@@ -90,7 +90,7 @@ import Axios from 'axios'
 #### Retorna todas os experimentos
 
 ```http
-  GET http://localhost:3005/api/Corrents
+  GET http://localhost:3005/api/Exprimentos
 ```
 
 ```javascript
