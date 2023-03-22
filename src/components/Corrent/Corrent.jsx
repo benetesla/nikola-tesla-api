@@ -8,7 +8,7 @@ const Corrent = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        Axios.get('http://localhost:3005/api/Exprimentos')
+        Axios.get('http://localhost:3005/api/Corrents')
             .then(response => setData(response.data));
     }, []);
 
