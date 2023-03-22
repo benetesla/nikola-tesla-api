@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Bobina de indução",
+        "Descricao": "A bobina de indução Tesla é um tipo de bobina de Tesla que usa o princípio da indução eletromagnética para gerar alta tensão e alta frequência. Foi inventada por Nikola Tesla em 1891 com o objetivo de transmitir energia elétrica sem fios"
+    },
+    {
+        "id": 2,
+        "nome": "Centelhador",
+        "Descricao": "Segundo os resultados da web, um centelhador é um dispositivo que produz uma faísca elétrica entre dois eletrodos quando a tensão entre eles é suficiente para romper a rigidez dielétrica do ar."
+     },
+    {
+        "id": 3,
+        "nome": "Discos Luminosos",
+        "Descricao": "Um disco luminoso é um objeto que emite luz própria ou refletida. Uma fonte de luz primária é aquela que emite luz própria, como o sol ou uma lâmpada. Uma fonte de luz secundária é aquela que reflete a luz de outra fonte, como a lua ou um espelho."
+     },
+    {
+        "id": 4,
+        "nome": "Correntes Fantasmas",
+        "Descricao": "As correntes fantasmas são um fenômeno que ocorre quando uma bobina de Tesla gera uma alta tensão e uma alta frequência que induz uma corrente elétrica em objetos metálicos próximos sem a necessidade de fios ou contato direto. Esse efeito foi demonstrado por Nikola Tesla em 1891, quando ele iluminou lâmpadas fluorescentes sem fio em seu laboratório." 
+    }
+
+]

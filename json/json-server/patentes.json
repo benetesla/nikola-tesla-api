@@ -1,100 +1,98 @@
-{
-    "Patentes": [
-       {
-          "id": 1,
-          "nome": "Lâmpada elétrica de arco",
-          "description": "Primeira patente de Tesla, solicitada em 1885 e concedida em 9 de fevereiro de 1886.       ",
-          "data": "9 de fevereiro de 1886"
-       },
-       {
-         "id": 2,
-         "nome": "Comutador para máquinas eletrodinâmicas",
-         "description": "comutador para máquinas eletrodinâmicas, um dispositivo que permitia controlar a direção e a intensidade da corrente elétrica em motores e geradores.",
-         "data": "26 de janeiro de 1886"
-       },
-       {
-         "id": 3,
-         "nome": "Regulador para máquinas eletrodinâmicas",
-         "description": "Nikola Tesla inventou e patenteou um regulador para máquinas eletrodinâmicas em 1886. Esse regulador era um dispositivo que usava um campo magnético rotativo para controlar a velocidade e a potência de motores e geradores de corrente alternada.",
-         "data": "2 de Março de 1886"
-       },
-       {
-         "id": 4,
-         "nome": "Máquina Eletrodinâmica.",
-         "description": "Tesla desenvolveu essa máquina com o objetivo de alimentar cidades com energia sem fio.",
-         "data": "22 de março de 1887"
-       },
-       {
-         "id": 5,
-         "nome": "Motor EletroMagnético.",
-         "description": "O motor eletromagnético é um motor elétrico que usa um campo magnético rotativo para converter energia elétrica em energia mecânica.",
-         "data": "1 de maio de 1888"
-       },
-       {
-         "id": 6,
-         "nome": "Transmissão de Energia Elétrica.",
-         "description": "Transmissão de Energia Elétrica Tesla é o conceito de transferir energia elétrica sem fio usando bobinas inventadas por Nikola Tesla.",
-         "data": "1 de maio de 1888"
-       },
-       {
-         "id": 7,
-         "nome": "Sistema de Distribuição Elétrica",
-         "description":"O sistema de distribuição elétrica Tesla se refere ao método de geração, transmissão e uso da energia elétrica proveniente de corrente alternada (CA) inventado por Nikola Tesla no final do século XIX.",
-         "data": "1 de maio de 1888"
-       },
-       {
-         "id": 8,
-         "nome": "Reguladores para motores de corrente alternada",
-         "description":"Reguladores para motores de corrente alternada Tesla são dispositivos que controlam a velocidade e o torque dos motores de indução que funcionam com corrente alternada (CA).Esses motores foram inventados por Nikola Tesla no final do século XIX e são usados em diversas aplicações ,como os carros elétricos.",
-          "data": "9 de outubro de 1888"
-       },
-       {
-         "id": 9,
-         "nome": "Máquina ou motor eletrodinâmico",
-         "description":"A máquina ou motor eletrodinâmico Tesla é um tipo de gerador elétrico que usa o princípio da indução eletromagnética para produzir corrente alternada (CA).",
-         "data": "2 de outubro de 1888"
-       },
-       {
-        "id": 10,
-        "nome": "Motor termomagnético.",
-        "description": "Um motor termomagnético é um tipo de motor que funciona devido à variação da magnetização dos materiais magnéticos ao redor de sua temperatura de transição ou temperatura de Curie. Os componentes principais desses motores são o material magnético e o circuito magnético. Se o material magnético apresenta a temperatura de transição ao redor da temperatura ambiente, pode ter potencial para ser utilizado em motores termomagnéticos.",   
-        "data": "2 de outubro de 1888"     
-      },
-      {
-        "id": 11,
-        "nome": "Método  de Transmissão de energia elétrica",
-        "description": "Nikola Tesla foi o primeiro a transmitir energia elétrica sem fio em 1893. Ele demonstrou a transmissão sem fio acendendo lâmpadas fosforescentes e em 1899, ele acendeu 200 lâmpadas e um motor a uma distância de 40 km usando uma frequência de ressonância . O processo de transferir energia elétrica sem fio é proporcionado por bobinas inventadas por Tesla, cujas bobinas foram batizadas de “Bobina de Tesla”. A bobina funciona como um gerador de alta tensão e alta frequência  e é conectada a uma fonte que induz energia elétrica para outra bobina receptora que capta a eletricidade para usufruir dessa energia.",
-        "data": "25 de junho de 1889"
-      },
-      {
-        "id": 12,
-        "nome": "Aparelho para Produzir ozônio.",
-        "description": "O gerador de ozônio é um aparelho que produz o gás ozônio de maneira artificial e quebra a ligação molecular do oxigênio (O²), que quando separadas se tornam instáveis e se juntam a outras moléculas de oxigênio inteiras formando o ozônio (O³). Nikola Tesla foi emitida uma patente para um gerador de ozono descarga de coroa usando placas de metal carregadas para agir em ar ambiente . O Gerador de Ozônio Medicinal Oxypower foi projetado para uso profissional e pode ser utilizado de forma contínua e ininterrupta, para aplicações com ênfase na saúde.",
-        "data": "22 de Setembro de 1896"
-      },
-      {
-        "id": 13,
-        "nome": "Método para obter corrente direta de correntes alternadas",
-        "description": "O método para obter corrente contínua de correntes alternadas foi desenvolvido por Tesla em 1889. Ele desenvolveu um sistema de geração, transmissão e uso da energia elétrica proveniente de corrente alternada. O sistema de Tesla funcionava por correntes polifásicas, isto é, correntes elétricas alternadas, defasadas de um pequeno intervalo de tempo entre seus picos de intensidade.",
-        "data": "22 de outubro de 1889"
-      },
-      {
-        "id": 14,
-        "nome": "Motor eletromagnético de corrente alternada",
-        "description": "O motor elétrico de corrente alternada é um tipo de motor elétrico que funciona a partir da variação cíclica da corrente elétrica em relação à intensidade e direção. No motor de corrente alternada um campo magnético é produzido por bobinas percorridas por correntes elétricas alternadas. O estator é basicamente um anel de metal com fendas que prendem as bobinas de fio isolado em um núcleo de aço. A corrente alternada passa então por esses fios para produzir um campo magnético rotativo.",
-        "data": "5 de agosto de 1890"
-      },
-      {
-        "id": 15,
-        "nome": "Gerador elétrico.",
-        "description": "O gerador de alta tensão Tesla é um dispositivo que produz correntes elétricas de frequências que variam entre 50 kHz e 1 MHz.",
-        "data": "2 de janeiro de 1894"
-      },
-      {
-        "id": 16,
-        "nome": "Método do aparelho para controlar mecanismos de movimento de embarcações ou veículos",
-        "description": "Nikola Tesla apresentou sua nova invenção, a qual chamou de “Tele-autómato”. O invento se tratava de um barco controlado por ondas de rádio. Tesla controlou o barco, operando a bateria, comandando a hélice e as luzes por meio de ondas de rádio.",
-        "data": " 8 de novembro de 1898."
-      }
-    ]
+[
+  {
+    "id": 1,
+    "nome": "Lâmpada elétrica de arco",
+    "description": "Primeira patente de Tesla, solicitada em 1885 e concedida em 9 de fevereiro de 1886.       ",
+    "data": "9 de fevereiro de 1886"
+  },
+  {
+    "id": 2,
+    "nome": "Comutador para máquinas eletrodinâmicas",
+    "description": "comutador para máquinas eletrodinâmicas, um dispositivo que permitia controlar a direção e a intensidade da corrente elétrica em motores e geradores.",
+    "data": "26 de janeiro de 1886"
+  },
+  {
+    "id": 3,
+    "nome": "Regulador para máquinas eletrodinâmicas",
+    "description": "Nikola Tesla inventou e patenteou um regulador para máquinas eletrodinâmicas em 1886. Esse regulador era um dispositivo que usava um campo magnético rotativo para controlar a velocidade e a potência de motores e geradores de corrente alternada.",
+    "data": "2 de Março de 1886"
+  },
+  {
+    "id": 4,
+    "nome": "Máquina Eletrodinâmica.",
+    "description": "Tesla desenvolveu essa máquina com o objetivo de alimentar cidades com energia sem fio.",
+    "data": "22 de março de 1887"
+  },
+  {
+    "id": 5,
+    "nome": "Motor EletroMagnético.",
+    "description": "O motor eletromagnético é um motor elétrico que usa um campo magnético rotativo para converter energia elétrica em energia mecânica.",
+    "data": "1 de maio de 1888"
+  },
+  {
+    "id": 6,
+    "nome": "Transmissão de Energia Elétrica.",
+    "description": "Transmissão de Energia Elétrica Tesla é o conceito de transferir energia elétrica sem fio usando bobinas inventadas por Nikola Tesla.",
+    "data": "1 de maio de 1888"
+  },
+  {
+    "id": 7,
+    "nome": "Sistema de Distribuição Elétrica",
+    "description": "O sistema de distribuição elétrica Tesla se refere ao método de geração, transmissão e uso da energia elétrica proveniente de corrente alternada (CA) inventado por Nikola Tesla no final do século XIX.",
+    "data": "1 de maio de 1888"
+  },
+  {
+    "id": 8,
+    "nome": "Reguladores para motores de corrente alternada",
+    "description": "Reguladores para motores de corrente alternada Tesla são dispositivos que controlam a velocidade e o torque dos motores de indução que funcionam com corrente alternada (CA).Esses motores foram inventados por Nikola Tesla no final do século XIX e são usados em diversas aplicações ,como os carros elétricos.",
+    "data": "9 de outubro de 1888"
+  },
+  {
+    "id": 9,
+    "nome": "Máquina ou motor eletrodinâmico",
+    "description": "A máquina ou motor eletrodinâmico Tesla é um tipo de gerador elétrico que usa o princípio da indução eletromagnética para produzir corrente alternada (CA).",
+    "data": "2 de outubro de 1888"
+  },
+  {
+    "id": 10,
+    "nome": "Motor termomagnético.",
+    "description": "Um motor termomagnético é um tipo de motor que funciona devido à variação da magnetização dos materiais magnéticos ao redor de sua temperatura de transição ou temperatura de Curie. Os componentes principais desses motores são o material magnético e o circuito magnético. Se o material magnético apresenta a temperatura de transição ao redor da temperatura ambiente, pode ter potencial para ser utilizado em motores termomagnéticos.",
+    "data": "2 de outubro de 1888"
+  },
+  {
+    "id": 11,
+    "nome": "Método  de Transmissão de energia elétrica",
+    "description": "Nikola Tesla foi o primeiro a transmitir energia elétrica sem fio em 1893. Ele demonstrou a transmissão sem fio acendendo lâmpadas fosforescentes e em 1899, ele acendeu 200 lâmpadas e um motor a uma distância de 40 km usando uma frequência de ressonância . O processo de transferir energia elétrica sem fio é proporcionado por bobinas inventadas por Tesla, cujas bobinas foram batizadas de “Bobina de Tesla”. A bobina funciona como um gerador de alta tensão e alta frequência  e é conectada a uma fonte que induz energia elétrica para outra bobina receptora que capta a eletricidade para usufruir dessa energia.",
+    "data": "25 de junho de 1889"
+  },
+  {
+    "id": 12,
+    "nome": "Aparelho para Produzir ozônio.",
+    "description": "O gerador de ozônio é um aparelho que produz o gás ozônio de maneira artificial e quebra a ligação molecular do oxigênio (O²), que quando separadas se tornam instáveis e se juntam a outras moléculas de oxigênio inteiras formando o ozônio (O³). Nikola Tesla foi emitida uma patente para um gerador de ozono descarga de coroa usando placas de metal carregadas para agir em ar ambiente . O Gerador de Ozônio Medicinal Oxypower foi projetado para uso profissional e pode ser utilizado de forma contínua e ininterrupta, para aplicações com ênfase na saúde.",
+    "data": "22 de Setembro de 1896"
+  },
+  {
+    "id": 13,
+    "nome": "Método para obter corrente direta de correntes alternadas",
+    "description": "O método para obter corrente contínua de correntes alternadas foi desenvolvido por Tesla em 1889. Ele desenvolveu um sistema de geração, transmissão e uso da energia elétrica proveniente de corrente alternada. O sistema de Tesla funcionava por correntes polifásicas, isto é, correntes elétricas alternadas, defasadas de um pequeno intervalo de tempo entre seus picos de intensidade.",
+    "data": "22 de outubro de 1889"
+  },
+  {
+    "id": 14,
+    "nome": "Motor eletromagnético de corrente alternada",
+    "description": "O motor elétrico de corrente alternada é um tipo de motor elétrico que funciona a partir da variação cíclica da corrente elétrica em relação à intensidade e direção. No motor de corrente alternada um campo magnético é produzido por bobinas percorridas por correntes elétricas alternadas. O estator é basicamente um anel de metal com fendas que prendem as bobinas de fio isolado em um núcleo de aço. A corrente alternada passa então por esses fios para produzir um campo magnético rotativo.",
+    "data": "5 de agosto de 1890"
+  },
+  {
+    "id": 15,
+    "nome": "Gerador elétrico.",
+    "description": "O gerador de alta tensão Tesla é um dispositivo que produz correntes elétricas de frequências que variam entre 50 kHz e 1 MHz.",
+    "data": "2 de janeiro de 1894"
+  },
+  {
+    "id": 16,
+    "nome": "Método do aparelho para controlar mecanismos de movimento de embarcações ou veículos",
+    "description": "Nikola Tesla apresentou sua nova invenção, a qual chamou de “Tele-autómato”. O invento se tratava de um barco controlado por ondas de rádio. Tesla controlou o barco, operando a bateria, comandando a hélice e as luzes por meio de ondas de rádio.",
+    "data": " 8 de novembro de 1898."
   }
+]

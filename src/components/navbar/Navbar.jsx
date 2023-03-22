@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Navabar = () => {
     return (
-        <nav className={`navbar sticky-top navbar-expand-lg navbar-light ${styles.navbar}`}>
+        <nav className={`navbar fixed-top navbar-expand-lg navbar-light ${styles.navbar}`}>
             <div className="container-fluid">
                 <a className={`navbar-brand ${styles.navbarBrand}`} href="#">
                     <span>Tesla</span>API

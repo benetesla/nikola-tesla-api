@@ -5,29 +5,31 @@ import Footer from '../footer/Footer'
 import Axios from 'axios'
 import { useState, useEffect } from 'react'
 const Patentes = () => {
-  const [datePatentes, setDatePatentes] = useState ([])
-  useEffect (() => {
-    Axios.get ('http://localhost:3005/api/Patentes').then (res => {
-      setDatePatentes (res.data)
-      console.log(res.data)
-    })
-  }, [])
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    Axios.get('http://localhost:3005/api/Patentes')
+      .then(response => setData(response.data));
+  }, []);
+
   return (
     <>
       <Navabar />
       <div className={styles.container}>
-        <div className={styles.containerPatentes}>
-          <h1 className={styles.title}>Patentes</h1>
-          <div className={styles.containerPatentes}>
-           
+        {data.map((patente) => (
+          <div className={styles.card} key={patente.id}>
+            <h3 className={styles.title}>{patente.nome}</h3>
+            <div className={styles.cardConteudo}>
+              <p>{patente.description}</p>
+              <p>{patente.data}</p>
+            </div>
           </div>
-
-
-        </div>
+        ))}
       </div>
       <Footer />
     </>
-  )
+
+  );
 }
 
 export default Patentes
