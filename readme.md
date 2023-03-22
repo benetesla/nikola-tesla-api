@@ -45,6 +45,8 @@ O JSON Server é uma biblioteca que permite criar rapidamente uma API REST fake 
 
 **Back-end:** 
 ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Json](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 
 ## Documentação da API
