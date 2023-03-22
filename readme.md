@@ -1,4 +1,5 @@
-# TESLA API
+
+#  Nikola Tesla  APi
 
 ---
 
@@ -12,7 +13,63 @@ frontend: Nossa aplicação é feita inteiramente com reactjs e css module, nao 
 
 ---
 
-# Demo Inicial frontend
+
+## Livro 
+
+ - [As fantatiscas Invençoes de Nikola Tesla](https://www.amazon.com.br/As-Fant%C3%A1sticas-Inven%C3%A7%C3%B5es-Nikola-Tesla/dp/8537010006)
+ 
+# Demonstracao
 
 ![Captura de Tela (96)](https://user-images.githubusercontent.com/78994881/226660167-cd91e25f-3e64-49c4-a578-37eadc8ede4e.png)
 ![Captura de Tela (97)](https://user-images.githubusercontent.com/78994881/226660186-b990f42e-64b3-49ad-ad40-6254b0a7991e.png)
+
+## Apêndice
+
+O JSON Server é uma biblioteca que permite criar rapidamente uma API REST fake para testar suas aplicações. Ele é usado para criar uma Fake Rest API.
+
+
+## Autores
+
+- [@BeneTesla](https://github.com/benetesla)
+
+
+## Stack utilizada
+
+**Front-end:** 
+![Bootstrao](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![IconsFontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+
+**Back-end:** 
+![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+
+## Documentação da API
+
+#### Retorna todas as patentes
+
+```http
+  GET http://localhost:3005/api/Patentes
+```
+## Fetch em patentes
+
+```javascript
+import Axios from 'axios'
+
+const [datePatentes, setDatePatentes] = useState ([])
+
+useEffect (() => {
+    Axios.get ('http://localhost:3005/api/Patentes').then (res => {
+      setDatePatentes (res.data)
+      console.log(res.data)
+    })
+  }, [])
+```
+
+
+
+
+
