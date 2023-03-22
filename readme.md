@@ -71,7 +71,35 @@ useEffect (() => {
   }, [])
 ```
 
+#### Retorna todas as correntes/Que foram realizados experimentos.
 
+```http
+  GET http://localhost:3005/api/Corrents
+```
 
+```javascript
+import Axios from 'axios'
+ const [data, setData] = useState([]);
 
+    useEffect(() => {
+        Axios.get('http://localhost:3005/api/Corrents')
+            .then(response => setData(response.data));
+    }, []);
+```
+
+#### Retorna todas os experimentos
+
+```http
+  GET http://localhost:3005/api/Exprimentos
+```
+
+```javascript
+import Axios from 'axios'
+ const [data, setData] = useState([]);
+
+    useEffect(() => {
+        Axios.get('http://localhost:3005/api/Exprimentos')
+            .then(response => setData(response.data));
+    }, []);
+```
 
