@@ -9,22 +9,33 @@
 
 .card {
     position: relative;
-    width: 463px;
-    height: 510px;
-    top: 110px;
-    left: 25px;
-    padding: 15px;
+    width: 100%;
+    height: 35rem;
+    
     background: #8B66B6;
     box-shadow:  -20px -20px 60px #76579b,
                  20px 20px 60px #a075d1;
+    left: 0;
+    top: 80px;       
     background: hsla(0, 47%, 51%, 0.2);
     border: 1px solid #8B66B6;
     box-sizing: border-box;
     border-radius: 15px;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    padding: 15px;
 }
+.card h3 {        
+    color: #8B66B6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+.card p {
+    color: #8B66B6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
 
+}
 
 @media screen and (max-width: 768px) {
     .container {
@@ -35,18 +46,22 @@
         width: 100%;
         height: 100%;
     }
+    
 
     .card {
         position: relative;
         width: 100%;
-        height: 310px;
+        height: 35rem;
+        background: #8B66B6;
+        box-shadow:  -20px -20px 60px #76579b,
+                     20px 20px 60px #a075d1;
         left: 0;
-        padding: 15px;
         top: 50px;       
         background: hsla(0, 47%, 51%, 0.2);
         border: 1px solid #8B66B6;
         box-sizing: border-box;
         border-radius: 15px;
+        padding: 15px;
     }
     .card h3 {        
         color: #8B66B6;
