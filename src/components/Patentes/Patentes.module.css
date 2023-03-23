@@ -9,63 +9,18 @@
 
 .card {
     position: relative;
-    width: 513.85px;
-    height: 810px;
-    left: 0px;
-    top: 10px;
-    padding: 155px;
-    margin: 58px;
-    background: #8B66B6;
+    width: 763px;
+    height: 510px;
+    top: 110px;
+    left: 25px;
+    background: hsla(0, 47%, 51%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
     border-radius: 15px;
-
+    margin-bottom: 150px;
+    margin-top: 150px;
 }
 
-.title {
-    position: absolute;
-    width: 440.44px;
-    background: #D9D9D9;
-    border-radius: 15px;
-    left: 36.71px;
-    top: 10px;
-    padding: 5px;
-}
-
-.title h3 {
-    position: absolute;
-    width: 74.5px;
-    height: 33.94px;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-
-    color: #000000;
-}
-
-.cardConteudo {
-    position: absolute;
-    width: 440.44px;
-    left: 36.71px;
-    top: 180px;
-    border-radius: 15px;
-    background: hsla(0, 1%, 27%, 0.2);
-
-}
-
-.cardConteudo p {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 17px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    line-height: 23px;
-    color: #0c0c0c;
-}
 
 @media screen and (max-width: 768px) {
     .container {
@@ -78,24 +33,24 @@
     }
 
     .card {
-        width: 100px;
-        height: 890px;    
-
-    }
-
-    .title {
+        position: relative;
         width: 100%;
-        left: 0px;
+        height: 310px;
+        left: 0;
+        top: 50px;       
+        background: hsla(0, 47%, 51%, 0.2);
+        border: 1px solid #8B66B6;
+        box-sizing: border-box;
+        border-radius: 15px;
     }
-
-    .cardConteudo {
-        width: 100%;
-        left: 0px;
-        height: 60%;
-        margin-top: -50px;
+    .card h3 {        
+        color: #8B66B6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
     }
-    .cardConteudo p {
-        margin-top: 29px;
-        padding: 5px;
+    .card p {
+        color: #8B66B6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
     }
 }

@@ -18,8 +18,8 @@ const Patentes = () => {
       <div className={styles.container}>
         {data.map((patente) => (
           <div className={styles.card} key={patente.id}>
-            <h3 className={styles.title}>{patente.nome}</h3>
-            <div className={styles.cardConteudo}>
+            <h3>{patente.nome}</h3>
+            <div>
               <p>{patente.description}</p>
               <p>{patente.data}</p>
             </div>
