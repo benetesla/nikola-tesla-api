@@ -17,8 +17,6 @@ app.get ('/api/Corrents', (req, res) => {
 app.get ('/api/Patentes', (req, res) => {
     res.json (db);
 });
-
-
 app.listen (port, () => {
-    console.log ('Server running on port ' + port);
+    console.log (`server is running on port http://localhost:${port}`);
 });

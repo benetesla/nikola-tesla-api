@@ -3,6 +3,7 @@
     width: 463px;
     height: 310px;
     top: 110px;
+    left: 25px;
     background: hsla(0, 0%, 100%, 0.2);
     border: 1px solid #8B66B6;
     box-sizing: border-box;
@@ -58,12 +59,15 @@
 }
 
 .card2Content {
-    position: absolute;
-    width: 863px;   
+    position: relative;
+    width: 963px;   
     top: 120px;
     height: 620px;
-    left: 35px;
-    padding: 35px;   
+    left: 185px;
+    padding: 35px;
+    padding-top: 150px; 
+    margin-top: 15px;
+    margin-bottom: 750px;  
 
     background: hsla(0, 0%, 100%, 0.2);
     border: 1px solid #8B66B6;
@@ -86,7 +90,7 @@
 @media screen and (max-width: 768px) {
     .card {
         position: absolute;
-        width: 324px;
+        width: 624px;
         height: 250px;
         left: 15px;
         top: 73px;
@@ -96,8 +100,8 @@
 
     .cardImgLeft {
         position: absolute;
-        width: 184px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         left: 96px;
         top: 310px;
         border-radius: 77px;
@@ -115,15 +119,17 @@
         width: 100%;
         height: 50%;
         left: 0px;
-        top: 560px;        
+        top: 660px;        
     }
     .card2Content {
-        position: absolute;
+        position: relative;
         width: 100%;  
         top: 220px;
-        height: 1120px;
+        height: 720px;
         left: 35px;
-        padding: 35px;   
+        padding: 35px;  
+        margin-top: 15px;
+        margin-bottom: 750px;
     
         background: hsla(0, 0%, 100%, 0.2);
         border: 1px solid #8B66B6;

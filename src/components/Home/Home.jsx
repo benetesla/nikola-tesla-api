@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar'
 import Styles from './Home.module.css'
 import IMG01 from '../../img/tesla.jpg'
 import Footer from '../footer/Footer'
+import ReactTypingEffect from 'react-typing-effect';
 
 const Home = () => {
   return (
@@ -23,7 +24,14 @@ const Home = () => {
 
         <div className={Styles.card2}>
           <h1 className={Styles.title2}>
-            Resumo bibliográfico Original
+            <ReactTypingEffect
+              text="⚡Resumo bibliográfico Original⚡"
+              speed="100"
+              eraseSpeed="100"
+              eraseDelay="1000"
+              typingDelay="1000"
+            />
+
           </h1>
           <p className={Styles.card2Content} >
             Embora grande grande parte da família europeia
