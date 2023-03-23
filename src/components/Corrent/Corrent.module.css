@@ -35,7 +35,9 @@
     .card {
         position: relative;
         width: 100%;
-        
+        background: #8B66B6;
+        box-shadow:  -20px -20px 60px #76579b,
+                     20px 20px 60px #a075d1;
         left: 0;
         top: 50px;       
         background: hsla(0, 47%, 51%, 0.2);

@@ -13,6 +13,9 @@
     height: 510px;
     top: 110px;
     left: 25px;
+    background: #8B66B6;
+    box-shadow:  -20px -20px 60px #76579b,
+                 20px 20px 60px #a075d1;
     background: hsla(0, 47%, 51%, 0.2);
     border: 1px solid #8B66B6;
     box-sizing: border-box;
