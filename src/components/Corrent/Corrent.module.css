@@ -13,6 +13,7 @@
     height: 510px;
     top: 110px;
     left: 25px;
+    padding: 15px;
     background: hsla(0, 47%, 51%, 0.2);
     border: 1px solid #8B66B6;
     box-sizing: border-box;
@@ -44,6 +45,7 @@
         border: 1px solid #8B66B6;
         box-sizing: border-box;
         border-radius: 15px;
+        padding: 15px;
     }
     .card h3 {        
         color: #8B66B6;
