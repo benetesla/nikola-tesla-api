@@ -25,7 +25,7 @@ frontend: Nossa aplicação é feita inteiramente com reactjs e css module, nao 
 
 ## Apêndice
 
-O JSON Server é uma biblioteca que permite criar rapidamente uma API REST fake para testar suas aplicações. Ele é usado para criar uma Fake Rest API.
+O JSON Server é uma biblioteca que permite criar rapidamente uma API REST fake para testar suas aplicações. 
 
 
 ## Autores
