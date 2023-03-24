@@ -40,14 +40,38 @@
 
 .card2 {
     position: relative;
-    width: 1105px;
-    height: 104px;
+    width: 463px;
+    height: 110px;
+    top: 110px;
     left: 25px;
-    top: 65px;
-    margin-top: 15px;
-
+    background: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
     border-radius: 15px;
-    background: #8B66B6;
+}
+.card2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.card2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 .card2 .title2 {
@@ -68,13 +92,24 @@
     left: 385px;
     padding: 35px;
     padding-top: 150px;
-    margin-top: 15px;
-    margin-bottom: 750px;
+    
     background: hsla(0, 0%, 100%, 0.2);
     border: 1px solid #8B66B6;
     box-sizing: border-box;
     border-radius: 15px;
 
+}
+.card2Content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid #8B66B6;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 .card2 .text2 {
