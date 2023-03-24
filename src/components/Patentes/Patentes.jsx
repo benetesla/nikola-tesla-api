@@ -6,11 +6,24 @@ import Axios from 'axios'
 import { useState, useEffect } from 'react'
 const Patentes = () => {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     Axios.get('http://localhost:3005/api/Patentes')
       .then(response => setData(response.data));
+    console.log(data)
   }, []);
+  if (loading) {
+    return <div className={styles.pyramidloader}>
+      <div className={styles.wrapper}>
+        <span className="side side1"></span>
+        <span className="side side2"></span>
+        <span className="side side3"></span>
+        <span className="side side4"></span>
+        <span className="shadow"></span>
+      </div>
+    </div>
+  }
 
   return (
     <>
